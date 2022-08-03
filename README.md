@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [@allyskorsah](https://your-solution-url.com)
+- Solution URL: [@allyskorsah](https://www.frontendmentor.io/solutions/qrcodecomponentdesign-zu3JsFIgMm)
 - Live Site URL: [allyskorsah.github.io](https://allyskorsah.github.io/Stats-Preview-Component-Design/)
 
 ## My process
