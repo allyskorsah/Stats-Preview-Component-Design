@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%); /*-Very dark blue*/
+    color: hsl(0, 0%, 100%);
+    /*font-family: 'Inter', sans-serif; 
+    font-family: 'Lexend Deca', sans-serif;*/
+}
+
+.card{
+    background-color: hsl(244, 38%, 16%);
+    width: 750px;
+    margin: 70px auto 30px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.item{
+    flex-basis: 100%;
+    position: relative;
+}
+
+img,source{
+    width: 100%;
+    height: 100%;
+}
+
+.overflow{
+    background-color:  hsl(277, 64%, 61%);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    opacity: 0.5;
+}
+
+section:nth-of-type(1){
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section > p:nth-of-type(1){
+    font-weight: 700;
+    font-size: x-large;
+    color:hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+}
+
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+section > p:nth-of-type(2){
+    font-size: x-small;
+    color: hsla(0, 0%, 100%, 0.5);
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+    font-family: 'Inter', sans-serif;
+}
+
+section > div{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+}
+
+div > p:nth-of-type(2){
+    font-size:8px;
+    color: hsla(0, 0%, 100%, 0.5);
+    margin-top: 5px;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+}
+
+div > p:nth-of-type(1){
+    font-weight: 700;
+    font-size: large;
+}
+
+footer{
+    color: hsl(228, 45%, 44%);
+    font-size: 11px; text-align: center;
+}
+
+@media(max-width:480px){
+    .card{
+        flex-direction: column-reverse;
+        width: 300px;
+        height: 600px;
+    }
+
+    source{
+        width: 100%;
+    }
+
+    .item{
+        flex-basis: 100%;
+    }
+
+    .item1{
+        height: 250px;
+    }
+
+    section:nth-of-type(1){
+        justify-content: space-between;
+        padding: 20px;
+        text-align: center;
+    
+    }
+
+    .container{
+        flex-direction: column;
+    }
+}
